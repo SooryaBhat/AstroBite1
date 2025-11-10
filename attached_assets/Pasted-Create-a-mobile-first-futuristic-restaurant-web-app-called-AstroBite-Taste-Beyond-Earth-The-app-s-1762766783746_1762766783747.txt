@@ -1,0 +1,94 @@
+Create a mobile-first futuristic restaurant web app called AstroBite – Taste Beyond Earth.
+The app should have a shared background image, a logo, and a dark/light mode toggle that also changes text colors.
+
+Design Concept:
+
+Theme: Space restaurant on Mars — clean, modern, glowing UI
+
+Colors: deep black #0d0d0d, Mars red #b11226, neon orange #ff5c39, silver #e6e6e6
+
+Fonts: “Orbitron” for headings, “Exo 2” for text (use Google Fonts)
+
+Style: Glassmorphism (blurred translucent panels), glowing buttons, smooth transitions
+
+App Structure (All pages share same background and navbar):
+
+Home Page:
+
+Centered large logo “AstroBite” and tagline “Taste Beyond Earth”
+
+Under that, 3 big statistic boxes:
+
+“25+ Unique Dishes”
+
+“1000+ Happy Customers”
+
+“Serving Since 2087”
+
+Top-right corner: hamburger (☰) menu icon
+
+Top-left corner: light/dark toggle (🌙/☀️)
+
+Menu Page:
+
+Sticky top search bar and filter button
+
+“Recommended Menu” section (4–5 cards with image, title, price)
+
+“Full Menu” section with scrollable dish list
+
+About Page:
+
+Title “About AstroBite”
+
+Paragraph describing the story of the first restaurant on Mars and its futuristic mission
+
+Gallery / Experience Page:
+
+Grid of 6–8 photos or placeholder images
+
+Below it, customer feedback cards (name + review + 5-star icons)
+
+Contact / Reserve Page:
+
+Contact details (phone, email, Mars base address)
+
+Simple reservation form with fields: Name, Email, Date, Time, Guests
+
+“Reserve Now” button with glow effect
+
+Functionalities:
+
+Responsive for all mobile screen sizes (max width ~480px).
+
+Light/dark mode toggle saves preference with localStorage.
+
+Hamburger menu slides open from right side with page links: Home, Menu, About, Gallery, Contact.
+
+Smooth scroll between pages or single-page sections.
+
+Reusable background image across all sections (space or Mars landscape).
+
+UI Animations:
+
+Buttons and cards slightly glow on hover/tap.
+
+Smooth fade-in for sections on scroll.
+
+Add simple transition between pages (fade or slide).
+
+Tech Stack:
+
+HTML5, CSS3 (no frameworks, pure responsive layout)
+
+Vanilla JavaScript for interactivity (menu toggle, theme toggle, localStorage).
+
+Deliverables:
+
+index.html, style.css, and script.js files.
+
+Organized, commented, production-ready code.
+
+Background image and logo placeholders included with descriptive filenames (mars-bg.jpg, astrobite-logo.png).
+
+Make sure everything looks unique, high-quality, and futuristic — suitable for a competition demo.
